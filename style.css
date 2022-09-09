@@ -1,0 +1,43 @@
+@font-face {
+    font-family: saloon;
+    src: url(fonts/JFRingmaster.ttf);
+}
+
+body {
+    background-color: #333333;
+}
+
+.container, .page-list
+h1 {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.page-list {
+    list-style-position: inside;
+}
+
+h1 {
+    font-family: saloon, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    background-color: #83580b;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+h3 {
+    color: #fde994;
+}
+
+img {
+    border-radius: 15px;
+}
+
+* {
+    color: #d9b650;
+}
